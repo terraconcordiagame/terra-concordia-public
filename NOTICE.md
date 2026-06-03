@@ -1,8 +1,16 @@
-# License Notes — Human-Readable Summary + Game-Specific Clarifications
+# NOTICE — License Summary, Copyright & Game-Specific Clarifications
 
 > 📜 **Legal text:** the full, legally-binding license is in [`LICENSE`](LICENSE) (Creative Commons Attribution-NonCommercial 4.0 International, official Legal Code from Creative Commons).
 >
-> This file (`LICENSE-NOTES.md`) is a **human-readable summary** plus **Terra Concordia-specific clarifications** (monetized gameplay videos, press use, fan art). Both files apply together — when in doubt, the `LICENSE` legal text prevails.
+> This file (`NOTICE.md`) is a **human-readable summary** plus **Terra Concordia-specific clarifications** (monetized gameplay videos, press use, fan art) and **copyright information**. Both files apply together — when in doubt, the `LICENSE` legal text prevails.
+
+---
+
+## Copyright
+
+Copyright © 2026 NCB Company - New Cards and Board Games (William Waiteman Sanches). All rights reserved.
+
+Terra Concordia™ is a trademark of NCB Company.
 
 ---
 

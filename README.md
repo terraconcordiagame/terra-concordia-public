@@ -51,7 +51,9 @@ See [community/CONTRIBUTING.md](community/CONTRIBUTING.md) for details.
 Materials in this repository are released under **[CC BY-NC 4.0](LICENSE)** (Attribution-NonCommercial 4.0 International) unless otherwise noted.
 
 - 📄 **[`LICENSE`](LICENSE)** — full official legal text (recognized by GitHub's license detection)
-- 📝 **[`LICENSE-NOTES.md`](LICENSE-NOTES.md)** — human-readable summary + game-specific clarifications (monetized gameplay videos, press use, fan art)
+- 📝 **[`NOTICE.md`](NOTICE.md)** — human-readable summary + game-specific clarifications (monetized gameplay videos, press use, fan art)
+
+Copyright © 2026 NCB Company - New Cards and Board Games (William Waiteman Sanches). All rights reserved on non-licensed materials.
 
 You MAY:
 - ✅ Use screenshots/logos in news articles, reviews, gameplay videos
