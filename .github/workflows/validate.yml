@@ -1,0 +1,63 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  markdown-lint:
+    name: Markdown Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v18
+        with:
+          config: '.markdownlint.json'
+          globs: '**/*.md'
+        continue-on-error: true
+
+  link-check:
+    name: Check Links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --verbose --no-progress './**/*.md' './**/*.html'
+          fail: false
+
+  image-validation:
+    name: Validate Images
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check achievement icons are 64x64
+        run: |
+          sudo apt-get update && sudo apt-get install -y imagemagick
+          if [ -d "achievement-icons" ]; then
+            for img in achievement-icons/*.png; do
+              if [ -f "$img" ]; then
+                dims=$(identify -format "%wx%h" "$img")
+                if [ "$dims" != "64x64" ]; then
+                  echo "❌ $img is $dims (expected 64x64)"
+                  exit 1
+                fi
+              fi
+            done
+            echo "✅ All achievement icons are 64x64"
+          fi
+
+  html-validation:
+    name: Validate HTML
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: HTML5 Validator
+        uses: Cyb3r-Jak3/html5validator-action@v7
+        with:
+          root: '.'
+        continue-on-error: true

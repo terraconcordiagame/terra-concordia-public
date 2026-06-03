@@ -1,0 +1,23 @@
+"area:translation":
+  - '\b(translat|i18n|locali[zs]ation|chinese|french|german|russian|japanese|korean)\b'
+
+"area:bug":
+  - '\b(bug|crash|broken|error|issue|problem|fail)\b'
+
+"area:feature":
+  - '\b(feature|request|suggestion|enhancement|idea)\b'
+
+"area:art":
+  - '\b(art|icon|capsule|logo|graphic|fanart)\b'
+
+"area:docs":
+  - '\b(documentation|readme|guide|tutorial)\b'
+
+"area:press":
+  - '\b(press|review|coverage|article|interview)\b'
+
+"area:accessibility":
+  - '\b(accessib|colorblind|screen reader|font size|disability)\b'
+
+"priority:critical":
+  - '\b(crash|game.?breaking|cannot play|save.?corrupt)\b'
