@@ -56,8 +56,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Check if HTML files exist
+        id: check
+        run: |
+          count=$(find . -name "*.html" -not -path "./.git/*" -not -path "./node_modules/*" | wc -l)
+          echo "html_count=$count" >> $GITHUB_OUTPUT
+          echo "Found $count HTML file(s)"
       - name: HTML5 Validator
-        uses: Cyb3r-Jak3/html5validator-action@v7
+        if: steps.check.outputs.html_count != '0'
+        uses: Cyb3r-Jak3/html5validator-action@v7.2.0
         with:
           root: '.'
         continue-on-error: true
+      - name: Skip notice (no HTML)
+        if: steps.check.outputs.html_count == '0'
+        run: echo "ℹ️ No HTML files in repository — validation skipped (this is OK)."
