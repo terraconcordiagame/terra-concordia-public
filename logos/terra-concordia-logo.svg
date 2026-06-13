@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+      
+    <defs>
+      <radialGradient id="bgB-en" cx="50%" cy="50%" r="65%">
+        <stop offset="0%" stop-color="#2A1810"/>
+        <stop offset="100%" stop-color="#0A0804"/>
+      </radialGradient>
+      <linearGradient id="goldB-en" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#FFE382"/>
+        <stop offset="50%" stop-color="#C8A850"/>
+        <stop offset="100%" stop-color="#8B6A1E"/>
+      </linearGradient>
+      <linearGradient id="leafB-en" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#86EFAC"/>
+        <stop offset="100%" stop-color="#2D6A2D"/>
+      </linearGradient>
+      <linearGradient id="waterB-en" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#60A5FA"/>
+        <stop offset="100%" stop-color="#1E40AF"/>
+      </linearGradient>
+      <radialGradient id="vignetteB-en" cx="50%" cy="50%" r="60%">
+        <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+        <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+      </radialGradient>
+      <filter id="glowB-en">
+        <feGaussianBlur stdDeviation="6" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <filter id="softShadowB-en" x="-30%" y="-30%" width="160%" height="160%">
+        <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.55"/>
+      </filter>
+      <filter id="bigShadowB-en" x="-30%" y="-30%" width="160%" height="160%">
+        <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000" flood-opacity="0.7"/>
+      </filter>
+    </defs>
+      <g transform="translate(640 273.6) scale(0.6600000000000001)">
+    <g>
+      <circle cx="0" cy="0" r="290" fill="url(#bgB-en)"/>
+      <circle cx="0" cy="0" r="285" fill="none" stroke="url(#goldB-en)" stroke-width="3"/>
+      <circle cx="0" cy="0" r="275" fill="none" stroke="url(#goldB-en)" stroke-width="1" opacity="0.4"/>
+      <g filter="url(#glowB-en)">
+        <polygon points="0,-130 113,-65 113,65 0,130 -113,65 -113,-65"
+                 fill="none" stroke="url(#goldB-en)" stroke-width="6"/>
+        <polygon points="0,-100 87,-50 87,50 0,100 -87,50 -87,-50"
+                 fill="#1A1208" stroke="url(#goldB-en)" stroke-width="2"/>
+        <polygon points="-50,-30 -25,-15 -25,15 -50,30 -75,15 -75,-15"
+                 fill="#CC2222" stroke="#FFE382" stroke-width="1.5" opacity="0.9"/>
+        <polygon points="50,-30 75,-15 75,15 50,30 25,15 25,-15"
+                 fill="#2244CC" stroke="#FFE382" stroke-width="1.5" opacity="0.9"/>
+        <polygon points="0,-70 25,-55 25,-25 0,-10 -25,-25 -25,-55"
+                 fill="#22AA22" stroke="#FFE382" stroke-width="1.5" opacity="0.9"/>
+        <polygon points="0,70 25,55 25,25 0,10 -25,25 -25,55"
+                 fill="#CCAA00" stroke="#FFE382" stroke-width="1.5" opacity="0.9"/>
+        <path d="M 0,-12 Q -8,-4 -10,4 Q -8,12 0,14 Q 8,12 10,4 Q 8,-4 0,-12 Z"
+              fill="url(#leafB-en)" stroke="#0F3018" stroke-width="0.8"/>
+        <circle cx="0" cy="2" r="3" fill="url(#waterB-en)" opacity="0.95"/>
+      </g>
+      <g opacity="0.3">
+        <g id="rayB-en">
+          <polygon points="0,-160 5,-200 -5,-200" fill="url(#goldB-en)"/>
+        </g>
+        <use href="#rayB-en" transform="rotate(30)"/><use href="#rayB-en" transform="rotate(60)"/><use href="#rayB-en" transform="rotate(90)"/><use href="#rayB-en" transform="rotate(120)"/><use href="#rayB-en" transform="rotate(150)"/><use href="#rayB-en" transform="rotate(180)"/><use href="#rayB-en" transform="rotate(210)"/><use href="#rayB-en" transform="rotate(240)"/><use href="#rayB-en" transform="rotate(270)"/><use href="#rayB-en" transform="rotate(300)"/><use href="#rayB-en" transform="rotate(330)"/>
+      </g>
+    </g></g>
+      <text x="640" y="590.4" text-anchor="middle" fill="url(#goldB-en)"
+            font-family="Georgia, serif" font-size="80" font-weight="bold" letter-spacing="15"
+            filter="url(#softShadowB-en)">TERRA CONCORDIA</text>
+      <text x="640" y="662.4" text-anchor="middle" fill="#C8A850" opacity="0.85"
+            font-family="Georgia, serif" font-size="28" font-style="italic" letter-spacing="8">Civilizations in Harmony</text>
+    </svg>

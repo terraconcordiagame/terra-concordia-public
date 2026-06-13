@@ -24,8 +24,8 @@ Terra Concordia is a deep, fully-featured digital eurogame for **1-4 players**, 
 | Folder | Contents |
 |---|---|
 | [press-kit/](press-kit/) | Press kit assets, factsheet, contact, team bios |
-| [achievement-icons/](achievement-icons/) | 60 achievement icons (PNG) |
-| [capsule-arts/](capsule-arts/) | Steam capsule arts (4 languages) |
+| [achievement-icons/](achievement-icons/) | 38 achievement icons (PNG) |
+| [capsule-arts/](capsule-arts/) | Steam capsule arts (EN/PT) |
 | [release-notes/](release-notes/) | Patch notes from v1.0 onwards |
 | [community/](community/) | Community contribution guide |
 | [logos/](logos/) | Logo variants (PNG, SVG) |

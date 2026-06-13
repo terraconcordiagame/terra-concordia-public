@@ -26,7 +26,7 @@ Future release notes will appear here.
 - LAN multiplayer (WebSocket) + Steam Networking (P2P)
 - Full PT/EN/ES UI localization (~1300 i18n keys) — runtime language switch + native Electron menu in player's language
 - Native Windows installer (NSIS) + portable
-- 38 Steam achievements (30 SP + 8 MP) + 60 icons
+- 38 Steam achievements (30 SP + 8 MP) + 76 icons (unlocked + locked states)
 - 4 trailer languages (60s + 90s) with bookends
 - 30+ unique animations
 - 90 unit tests passing
@@ -55,4 +55,4 @@ Steam Workshop integration. User-created scenarios.
 
 ---
 
-For detailed roadmap, see [post-launch/CONTENT_ROADMAP.md](https://github.com/ncbgames/terra-concordia/blob/main/post-launch/CONTENT_ROADMAP.md) (private repo).
+For the detailed content roadmap, join our [Discord](https://discord.gg/Xp869eSNWP) — the full roadmap lives in the private development repository.

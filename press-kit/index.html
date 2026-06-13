@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terra Concordia — Press Kit</title>
+<style>
+  :root {
+    --bg-dark: #0A0804;
+    --bg-mid: #2A1810;
+    --gold-light: #FFE382;
+    --gold-mid: #C8A850;
+    --gold-deep: #8B6A1E;
+    --text: #E8E0D0;
+    --text-dim: #A89878;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg-dark);
+    color: var(--text);
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.6;
+    padding: 40px 20px;
+  }
+  .container { max-width: 1000px; margin: 0 auto; }
+  header {
+    text-align: center;
+    border-bottom: 2px solid var(--gold-deep);
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+  }
+  h1 {
+    color: var(--gold-light);
+    font-size: 3rem;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    color: var(--gold-mid);
+    font-size: 1.6rem;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid var(--gold-deep);
+    padding-bottom: 8px;
+  }
+  h3 { color: var(--gold-light); margin: 24px 0 10px; }
+  .tagline {
+    font-style: italic;
+    color: var(--gold-mid);
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  .facts {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 8px 20px;
+    background: var(--bg-mid);
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid var(--gold-deep);
+  }
+  .facts dt { color: var(--gold-mid); font-weight: bold; }
+  .facts dd { color: var(--text); }
+  .features { padding-left: 24px; }
+  .features li { margin: 8px 0; }
+  .download-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin: 20px 0;
+  }
+  .download-list a {
+    display: block;
+    padding: 16px;
+    background: var(--bg-mid);
+    border: 1px solid var(--gold-deep);
+    border-radius: 6px;
+    color: var(--gold-light);
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .download-list a:hover {
+    background: var(--bg-dark);
+    border-color: var(--gold-light);
+    box-shadow: 0 0 12px rgba(200, 168, 80, 0.3);
+  }
+  .contact-box {
+    background: var(--bg-mid);
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid var(--gold-deep);
+    margin: 20px 0;
+  }
+  footer {
+    margin-top: 80px;
+    padding-top: 40px;
+    border-top: 1px solid var(--gold-deep);
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 0.9rem;
+  }
+  .pill {
+    display: inline-block;
+    padding: 4px 12px;
+    background: var(--gold-deep);
+    color: var(--bg-dark);
+    border-radius: 12px;
+    font-size: 0.85rem;
+    margin: 2px 4px 2px 0;
+    font-weight: bold;
+  }
+  blockquote {
+    border-left: 3px solid var(--gold-mid);
+    padding-left: 20px;
+    margin: 20px 0;
+    color: var(--gold-mid);
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <h1>TERRA CONCORDIA</h1>
+  <div class="tagline">Civilizations in Harmony — A Digital Eurogame by NCB Company</div>
+  <div>
+    <span class="pill">Strategy</span>
+    <span class="pill">Eurogame</span>
+    <span class="pill">Indie</span>
+    <span class="pill">1-4 Players</span>
+    <span class="pill">Windows</span>
+    <span class="pill">Coming Soon</span>
+  </div>
+</header>
+
+<h2>The Game</h2>
+<p>Terra Concordia is a deep, fully-featured digital <strong>eurogame of civilization</strong> for 1 to 4 players. Choose your people, develop technologies, erect Wonders — but every action affects the world's <strong>Global Sustainability</strong>. Push too hard, and everyone loses.</p>
+<blockquote>"A digital eurogame where four civilizations must build, trade, explore and innovate — in harmony with a shared planet that can collapse if you push too hard."</blockquote>
+
+<h2>Quick Facts</h2>
+<dl class="facts">
+  <dt>Developer</dt><dd>NCB Company (New Cards and Board Games)</dd>
+  <dt>Based in</dt><dd>Brazil</dd>
+  <dt>Founded</dt><dd>2026</dd>
+  <dt>Release Date</dt><dd>TBD (Q4 2026 / Q1 2027 target)</dd>
+  <dt>Platforms</dt><dd>Windows (10/11, 64-bit)</dd>
+  <dt>Players</dt><dd>1 to 4 (hotseat local + online soon)</dd>
+  <dt>Game Length</dt><dd>90-180 minutes</dd>
+  <dt>Age Rating</dt><dd>14+</dd>
+  <dt>Price (launch)</dt><dd>US$ 4.99 / R$ 14,90</dd>
+  <dt>Languages</dt><dd>Portuguese (full), English (partial), Spanish (partial)</dd>
+  <dt>Engine</dt><dd>Electron 30 + React 18 + TypeScript</dd>
+</dl>
+
+<h2>Key Features</h2>
+<ul class="features">
+  <li><strong>142 hand-crafted cards</strong> — Buildings, Technologies, Wonders, Events, Trade, Exploration, Influence, Workers, Legacy + Objectives</li>
+  <li><strong>4 unique civilizations</strong> — Solaris, Verdantis, Mariteia, Aurífera</li>
+  <li><strong>6 solo scenarios</strong> from ★ to ★★★★★ + 3-difficulty Automa AI</li>
+  <li><strong>6 game variants</strong> including 4-player Diplomacy with alliances</li>
+  <li><strong>Global Sustainability mechanic</strong> — cooperate or collapse together</li>
+  <li><strong>30+ unique animations</strong> with reduced-motion support</li>
+  <li><strong>19 customizable settings</strong> (colorblind, font size, language)</li>
+  <li><strong>Full manuals + Civilopedia + Print &amp; Play kit (161 assets)</strong></li>
+  <li><strong>2-4 player Multiplayer</strong> via LAN or Steam Networking P2P, with chat and 60s reconnect — included at launch</li>
+  <li><strong>38 Steam Achievements</strong> (30 single-player + 8 multiplayer), Cloud Save, Rich Presence, Stats & Leaderboards</li>
+  <li><strong>4 languages</strong>: Portuguese, English, Spanish, Simplified Chinese</li>
+</ul>
+
+<h2>Trailer & Screenshots</h2>
+<p>Trailer: <em>upload pending — link will be added when YouTube video is published.</em></p>
+<p>22 screenshots available in <code>screenshots/</code>. Selected 6-10 for press use in <code>press-kit/screenshots/</code>.</p>
+
+<h2>Download Assets</h2>
+<div class="download-list">
+  <a href="logos/">📐 Logos (PNG/SVG)</a>
+  <a href="screenshots/">📸 Screenshots (PNG)</a>
+  <a href="../trailers/exported/">🎬 Trailer (MP4)</a>
+  <a href="factsheet.md">📄 Factsheet (MD)</a>
+  <a href="../store-assets/capsules/B-gameplay/en/">🎨 Capsule Arts (PNG)</a>
+  <a href="team-bios/">👤 Team Bios (MD)</a>
+</div>
+
+<h2>About NCB Company</h2>
+<p>NCB Company (New Cards and Board Games) is a Brazilian indie studio focused on deep, sustainable strategy games that bridge the worlds of digital and tabletop gaming. Terra Concordia is the studio's debut commercial release.</p>
+<p>Design philosophy:</p>
+<ol>
+  <li><strong>Depth over breadth</strong> — fewer mechanics, mastered well</li>
+  <li><strong>Cooperation in competition</strong> — shared stakes that reward strategic empathy</li>
+  <li><strong>Bridge digital + tabletop</strong> — every game ships with a Print &amp; Play kit</li>
+</ol>
+
+<h2>Contact</h2>
+<div class="contact-box">
+  <strong>Business inquiries:</strong> terraconcordia@ncbgames.com<br>
+  <strong>Press / Reviews:</strong> terraconcordia@ncbgames.com<br>
+  <strong>Support:</strong> terraconcordia@ncbgames.com<br>
+  <strong>Social:</strong> TBD<br>
+  <strong>Discord:</strong> TBD
+</div>
+
+<h2>Press Permissions</h2>
+<p>NCB Company grants permission to use any of the assets in this press kit for news articles, reviews, gameplay videos, streams, and let's plays of Terra Concordia. You are free to monetize content. Please credit "NCB Company" or "New Cards and Board Games" when possible.</p>
+
+<h2>Review Keys</h2>
+<p>Review keys are available for press, content creators (5,000+ followers), and curators on request. Email <strong>terraconcordia@ncbgames.com</strong> with your outlet, coverage focus, audience size, and Steam Curator URL (if applicable).</p>
+
+<footer>
+  <p>NCB Company · New Cards and Board Games · 2026</p>
+  <p>Press kit v1.0 · 27/05/2026</p>
+</footer>
+
+</div>
+</body>
+</html>
