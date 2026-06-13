@@ -8,12 +8,8 @@
 | **Press / Reviews** | terraconcordia@ncbgames.com |
 | **Support** | terraconcordia@ncbgames.com |
 | **Social** | TBD |
-| **Discord** | TBD |
-| **Website** | TBD |
-
-> ⚠ Atualize estes campos antes de enviar o press kit. Sugestão de e-mails:
-> - `press@ncb.games` ou `press.terraconcordia@gmail.com`
-> - `support@ncb.games` ou `support.terraconcordia@gmail.com`
+| **Discord** | https://discord.gg/Xp869eSNWP |
+| **Website** | https://ncbgames.com |
 
 ## Press Permissions
 
