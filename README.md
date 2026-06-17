@@ -14,6 +14,7 @@ Terra Concordia is a deep, fully-featured digital eurogame for **1-4 players**, 
 - 🎮 **Steam:** https://store.steampowered.com/app/4791670/
 - 💬 **Discord:** [Join our community](https://discord.gg/Xp869eSNWP)
 - 📰 **Press Kit:** [press-kit/](press-kit/)
+- 📖 **Manuals:** [Rulebook, Solo guide & Print & Play](https://ncbgames.com/manuals-en.html)
 - 🎬 **Trailer:** Coming soon
 - 📧 **Contact:** terraconcordia@ncbgames.com
 
@@ -30,6 +31,7 @@ Terra Concordia is a deep, fully-featured digital eurogame for **1-4 players**, 
 | [community/](community/) | Community contribution guide |
 | [logos/](logos/) | Logo variants (PNG, SVG) |
 | [screenshots/](screenshots/) | Curated screenshots |
+| [videos/](videos/) | Wonder showcase reels (15s clips) |
 
 ---
 
