@@ -12,6 +12,33 @@ Future release notes will appear here.
 
 ---
 
+## [1.1.0] — 2026-06-17
+
+First post-launch update.
+
+### Added
+- **In-game version notes:** Help → "Version notes & latest updates" opens a PDF (PT/EN/ES) with the fix/update history.
+- **Main menu buttons:** "Manuals & Website" (opens `ncbgames.com/manuals`) and "Discord invite".
+- **3 new procedural music tracks** — Serene, Epic, Mystic — selectable in Settings → Sounds (new-player default: Mystic).
+- **Version + build-date badge** on out-of-game screens.
+
+### Fixed
+- **End-of-game videos:** victory video only for the winner; defeat/collapse video for everyone who lost (any mode). Fixes the solo case that showed the victory video on a loss.
+- **Victory achievements only unlock on an actual win** — not on a solo-scenario loss, a loss to another player, or ecological collapse.
+- **Videos no longer play over music/SFX** — audio is muted while a video plays and restored afterward.
+- **Multiplayer:** turn timer respects disconnect pauses (no more auto-passing under a dropped player); residual match state (discard/timeline) resets each new game; the winner uses the full ranking (host/guest aligned); anti-cheat discard validation; clearer alliance-error feedback; ecological collapse ignores players who left.
+- **Achievements:** "Hard Mode Win" requires AI in the match; "4p Diplomacy" uses the initial human count; MP counters no longer inflate on the end screen.
+- More translations (HUD, sustainability alerts, end-of-game warnings, history log).
+
+### Changed
+- Global Sustainability bar slightly taller; Settings window much wider.
+- New-player defaults: SFX 80%, music 30%, Mystic track, Slow animation speed, intro video on.
+
+### Animations
+- Floating resource/sustainability numbers, worker "pop" on placement, animated hex reveal, pulsing ring on the active player + glow on the selected action, and shake (critical zone) / spark (at 10) on the Sustainability bar. Unexplored hexes now show a "locked" look (embossed padlock with a subtle shimmer).
+
+---
+
 ## [1.0.46] — Pre-Launch (Final RC)
 
 ### Initial Release Candidate
