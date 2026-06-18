@@ -12,36 +12,42 @@ Future release notes will appear here.
 
 ---
 
-## [1.1.0] — 2026-06-17
+## [1.1.0] — 2026-06-18
 
-First post-launch update.
+First post-launch update — a big one.
 
 ### Added
-- **In-game version notes:** Help → "Version notes & latest updates" opens a PDF (PT/EN/ES) with the fix/update history.
-- **Main menu buttons:** "Manuals & Website" (opens `ncbgames.com/manuals`) and "Discord invite".
+- **Unique civilization abilities** (passive, active in every mode):
+  - **Solaris (red)** — constructions and wonders cost 2 fewer resources.
+  - **Mariteia (blue)** — explores ocean & island without spending a worker, and reveals +1 hex per Explore.
+  - **Verdantis (green)** — Restore yields double (+1 extra global sustainability and +1 extra VP).
+  - **Aurífera (yellow)** — +1 gold on every market trade and 1 extra Trade action per round (4 instead of 3).
+  - Detailed in the Tutorial (Civilizations tab) and the Civilopedia.
 - **3 new procedural music tracks** — Serene, Epic, Mystic — selectable in Settings → Sounds (new-player default: Mystic).
+- **In-game release notes** — Help → "Release Notes & Latest Updates" (PDF, PT/EN/ES).
+- **Main menu buttons** — "Manuals & Website" (opens the site in your language) and "Discord invite".
 - **Version + build-date badge** on out-of-game screens.
+- **Redesigned main menu** — frameless, reordered buttons with emojis, "Quit" in the bottom-right; the Civilopedia button opens the in-game guide.
+- **Full keyboard play** — Tab moves between panels and buttons, Enter/Space activates. New tutorial tabs: "Shortcuts", "VP Breakdown" (how points are counted) and "Strategy" (how to score more).
+- **Animation pack** — floating numbers, worker "pop", animated hex reveal, pulsing ring on the active player + glow on the selected action, shake/spark on the Sustainability bar. Unexplored hexes now twinkle with 4-point golden stars and a soft halo (replacing the old dots).
+- Larger AI difficulty selector and a more prominent "play against AI" toggle; the Research modal zooms the card on hover.
+
+### Achievements
+- Win-only achievements unlock **only on an actual win** — never when losing in solo (scenario goal respected), losing to another player, or losing by ecological collapse. Winning by forfeit (an opponent leaving/dropping) no longer unlocks them either.
+- Civilization achievements unlock when winning with that civilization in any mode.
+- "Perfect Balance": win with Global and Individual Sustainability at 10. "Diplomat" and "Path of Peace" now track the Influence action.
+- "Hard Mode Win" requires AI in the match; "Diplomacy (4 players)" uses the initial human count.
 
 ### Fixed
-- **End-of-game videos:** victory video only for the winner; defeat/collapse video for everyone who lost (any mode). Fixes the solo case that showed the victory video on a loss.
-- **Victory achievements only unlock on an actual win** — not on a solo-scenario loss, a loss to another player, or ecological collapse.
-- **Videos no longer play over music/SFX** — audio is muted while a video plays and restored afterward.
-- **Multiplayer:** turn timer respects disconnect pauses (no more auto-passing under a dropped player); residual match state (discard/timeline) resets each new game; the winner uses the full ranking (host/guest aligned); anti-cheat discard validation; clearer alliance-error feedback; ecological collapse ignores players who left.
-- **Achievements:** "Hard Mode Win" requires AI in the match; "4p Diplomacy" uses the initial human count; MP counters no longer inflate on the end screen.
-- More translations (HUD, sustainability alerts, end-of-game warnings, history log).
-
-### Changed
-- Global Sustainability bar slightly taller; Settings window much wider.
-- New-player defaults: SFX 80%, music 30%, Mystic track, Slow animation speed, intro video on.
-
-### Animations
-- Floating resource/sustainability numbers, worker "pop" on placement, animated hex reveal, pulsing ring on the active player + glow on the selected action, and shake (critical zone) / spark (at 10) on the Sustainability bar. Unexplored hexes now show a "locked" look (embossed padlock with a subtle shimmer), and unexplored hexes next to your territory get a pulsing blue ring ("invitation to explore").
-
-### Polish
-- **Standardized, highlighted borders** across all screens — secondary buttons, panels, modals, and main-menu frames now use a thicker (2px), brighter gold border (previously inconsistent).
-- "Public Objective Led" warning now shows the correct icon (🎯) instead of "?".
-- Hidden-hex sparks are now a toggle in **Settings → Visual** (on by default).
-- More translations for the history log (maintenance / planning / production, diplomacy, collapse, sustainability) and the "influenced a hex" popup.
+- **End-of-game videos** — defeat/collapse video for every losing player, victory video only for the winner (any mode), shown before the end screen; game audio is muted while a video plays.
+- **Scoring** — an achieved secret objective now correctly adds its VP (it was 0 before); conditional card VP (per alliance / per player with less influence) is computed correctly, without double-counting.
+- **Player-interaction cards** implemented/fixed: Embargo, Boycott, Partnership, Monopoly, Trade Routes and Military Alliance (immunity to negative events).
+- **Multiplayer** — turn timer respects the disconnect pause; residual state (discard/timeline) reset each new game; winner computed via the full ranking (host and guest aligned); anti-cheat on discards; error feedback when accepting an alliance; ecological collapse ignores players who left; a "heartbeat" detects abrupt disconnects so the host reliably ends the match, with a notice of who left. **Multiplayer chat removed** (store content policy).
+- **Solo / vs-AI** — cards that depend on other players / human cooperation are removed from the decks; the AI now explores hexes in random directions.
+- **Saves** are now written to `Terra Concordia\saves` (Steam Cloud compatible); saves from older versions are migrated automatically.
+- Unexplored hexes show fog (instead of "?"); correct icon on the "Public Objective Led" notice; action buttons no longer stay stuck in focus; "show owner inside hex" now starts off.
+- Slightly taller Global Sustainability bar; wider Settings window; footer shows the correct version; PT manuals link fixed; each mode runs its correct number of rounds; intro and victory videos updated.
+- Many translations (PT/EN/ES): HUD, alerts, history log, turn labels, discard, navigation, diplomacy and end of game.
 
 ---
 
