@@ -35,7 +35,13 @@ First post-launch update.
 - New-player defaults: SFX 80%, music 30%, Mystic track, Slow animation speed, intro video on.
 
 ### Animations
-- Floating resource/sustainability numbers, worker "pop" on placement, animated hex reveal, pulsing ring on the active player + glow on the selected action, and shake (critical zone) / spark (at 10) on the Sustainability bar. Unexplored hexes now show a "locked" look (embossed padlock with a subtle shimmer).
+- Floating resource/sustainability numbers, worker "pop" on placement, animated hex reveal, pulsing ring on the active player + glow on the selected action, and shake (critical zone) / spark (at 10) on the Sustainability bar. Unexplored hexes now show a "locked" look (embossed padlock with a subtle shimmer), and unexplored hexes next to your territory get a pulsing blue ring ("invitation to explore").
+
+### Polish
+- **Standardized, highlighted borders** across all screens — secondary buttons, panels, modals, and main-menu frames now use a thicker (2px), brighter gold border (previously inconsistent).
+- "Public Objective Led" warning now shows the correct icon (🎯) instead of "?".
+- Hidden-hex sparks are now a toggle in **Settings → Visual** (on by default).
+- More translations for the history log (maintenance / planning / production, diplomacy, collapse, sustainability) and the "influenced a hex" popup.
 
 ---
 
