@@ -14,6 +14,8 @@ Future release notes will appear here.
 
 ## [1.1.0] — 2026-06-18
 
+📄 **Official notes (PDF):** [English](v1.1.0/ReleaseNotes-EN.pdf) · [Português](v1.1.0/ReleaseNotes-PT.pdf) · [Español](v1.1.0/ReleaseNotes-ES.pdf)
+
 First post-launch update — a big one.
 
 ### Added
