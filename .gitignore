@@ -1,0 +1,12 @@
+# NUNCA commitar segredos neste repositório PÚBLICO
+github-recovery-codes.txt
+*recovery-codes*
+*.secret
+secrets.*
+*.token
+*token*
+.env
+.env.*
+CREDENTIALS*
+*.key
+*.pem
