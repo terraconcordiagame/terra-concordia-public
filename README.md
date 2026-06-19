@@ -30,7 +30,7 @@ Terra Concordia is a deep, fully-featured digital eurogame for **1-4 players**, 
 | [release-notes/](release-notes/) | Patch notes from v1.0 onwards |
 | [community/](community/) | Community contribution guide |
 | [logos/](logos/) | Logo variants (PNG, SVG) |
-| [screenshots/](screenshots/) | Curated screenshots |
+| [screenshots/](screenshots/) | Curated screenshots (English + Portuguese in `pt-br/`) |
 | [videos/](videos/) | Wonder showcase reels (15s clips) |
 
 ---
