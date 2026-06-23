@@ -38,18 +38,21 @@ First post-launch update — a big one.
 - **History in each player's language** — the match log is re-translated per player (guests used to see the host's language); phase-summary titles localized too.
 - **Turn alert** — a sound + on-screen notice when it's your turn (at 57s and again at 10s remaining).
 - "Join match" now lists waiting matches before you create one (Steam); MP stats (hosted time / reconnection / no-AFK) no longer overwritten on the guest; guest builds no longer flicker at the 3-builds-per-round limit; extra anti-cheat hardening; turn timer respects disconnect pauses; the host reliably ends the match on disconnect (heartbeat) with a "who left" notice; **chat removed** (store content policy).
+- The 60-second turn timer now resets on every action, synchronized across all players.
 
 ### Achievements
 - Win-only achievements unlock **only on an actual win** — never when losing in solo (scenario goal respected), losing to another player, or by ecological collapse. Winning by forfeit (an opponent leaving/dropping) no longer counts.
 - Civilization achievements unlock when winning with that civilization in any mode.
 - "Perfect Balance": win with Global and Individual Sustainability at 10. "Diplomat" and "Path of Peace" now track the Influence action.
 - "Hard Mode Win" requires AI in the match; "Diplomacy (4 players)" uses the initial human count.
+- "Supreme Diplomat" and "Perfect Alliance" now count with 2, 3 or 4 players (online or local), not only 4; "Living Legend" (win all 6 scenarios) fixed.
 
 ### Card & balance fixes
 - **Critical objective-scoring fix** — "Admiral" and "Prodigy Scientist" measured the wrong metric (could change the winner); fixed alongside "Guardian of Nature", "Council of Sages", "Ancient Inscriptions", the "most production" objective and the "Ancient Map" card's missing +1 VP.
 - **Immediate build/research bonuses no longer apply twice** (e.g. CON-19 gave +4 influence instead of +2; some wonders/techs doubled gains).
 - Many cards now do exactly what their text says: TRB-01 / PRO-15 (1 free build per round), EXP-10 (true free research), CON-19 (+1 VP per Influence), CON-03 (Granary +5 storage), COM-02 (+4 gold), COM-08 (guaranteed +8 gold), INF-06, EXP-07, INF-08, and per-round cards (Embassy, Silk Road, Natural Spring, Abandoned Mine); Metallurgy / Energy Crystals discounts applied; Alchemy/Workshop/Medicine/Royal Road effects aligned.
-- Alliance exploit closed (+3 gold paid only on a peaceful end); wonders no longer count toward the upkeep tax; stealing a card with a full hand returns it instead of destroying it; resource-overflow-to-gold summed correctly; EN/ES card texts and target-picker labels (Embargo/Boycott/Partnership/Spy) synced to the real effects.
+- **Technology cards no longer appear in your hand** — techs are obtained only by researching; cards that used to "draw a technology" (Academy, Grand Library, Ancestral Inscriptions) now grant a **free research** instead, and the Research button re-enables when you have a pending free research.
+- Alliance gold rebalanced — forming an alliance now grants +3 gold to both players and breaking it costs the breaker 3 (closing the old form/dissolve exploit); wonders no longer count toward the upkeep tax; stealing a card with a full hand returns it instead of destroying it; resource-overflow-to-gold summed correctly; EN/ES card texts and target-picker labels (Embargo/Boycott/Partnership/Spy) synced to the real effects.
 - **AI rebalanced** — now stronger (plays its cards with the fixed discounts/income), so its starting VP head start was reduced to Easy +10 / Normal +30 / Hard +50 (was 20/45/70); plays beneficial hand cards; explores in random directions; a solo freeze (human passing first) is fixed.
 
 ### Other fixes
@@ -58,6 +61,7 @@ First post-launch update — a big one.
 - **Player-interaction cards** implemented/fixed: Embargo, Boycott, Partnership, Monopoly, Trade Routes, Military Alliance.
 - **Saves** moved to `Terra Concordia\saves` (Steam Cloud compatible; older saves auto-migrated).
 - Solo / vs-AI deck filtering; unexplored hexes show fog (instead of "?"); correct "Public Objective Led" icon; action buttons no longer stuck in focus; "show owner inside hex" starts off; each mode runs its correct number of rounds; intro/victory videos updated.
+- End-of-game timeline now lists **all** actions (collect, explore, sail, trade, influence, play card, pass), not just build/research/restore; cards drawn by effects may exceed 7 in hand (the end-of-round discard brings it back to 5); the solo match-setup screen shows all 6 scenarios without a scrollbar.
 - Manuals, physical manual, solo manual and Civilopedia (PDF + DOCX, PT/EN/ES) plus the in-game tutorial regenerated with the updated values; many PT/EN/ES translations.
 
 ---
