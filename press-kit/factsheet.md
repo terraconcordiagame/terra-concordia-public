@@ -9,7 +9,7 @@
 | **Publisher** | NCB Company (self-published) |
 | **Founded** | 2026 |
 | **Based in** | Brazil |
-| **Release Date** | TBD (Q4 2026 / Q1 2027 target) |
+| **Release Date** | 31/07/2026 |
 | **Platforms** | Windows (10/11, 64-bit) |
 | **Multiplayer** | LAN (WebSocket, port 7777) + Steam Networking P2P, 2-4 players, chat & 60s reconnect — **included at launch** |
 | **Players** | 1 to 4 |

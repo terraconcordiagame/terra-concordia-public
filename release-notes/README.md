@@ -59,7 +59,9 @@ First post-launch update — a big one.
 - **Scoring** — an achieved secret objective now adds its VP (was 0 before); conditional card VP (per alliance / per player with less influence) computed without double-counting; the end-of-game winner reveal is guaranteed even across multiplayer resyncs.
 - **End-of-game videos** — defeat/collapse video for every losing player, victory video only for the winner (any mode); game audio is muted while a video plays.
 - **Player-interaction cards** implemented/fixed: Embargo, Boycott, Partnership, Monopoly, Trade Routes, Military Alliance.
-- **Saves** moved to `Terra Concordia\saves` (Steam Cloud compatible; older saves auto-migrated).
+- **Steam Cloud saves fixed (critical)** — saves are now written as real `.json` files (they used to live only in internal storage), so Steam Cloud syncs them across different PCs; game data (saves, settings, Hall of Fame) is unified into a single folder, with older saves/settings auto-migrated.
+- **Privacy** — the AI's secret objective is no longer shown to the human player (hidden until game over).
+- **Print & Play kit** — blank board removed; +2 random maps (6 total) with better-distributed starting hexes; card counts and the Automa sheet updated.
 - Solo / vs-AI deck filtering; unexplored hexes show fog (instead of "?"); correct "Public Objective Led" icon; action buttons no longer stuck in focus; "show owner inside hex" starts off; each mode runs its correct number of rounds; intro/victory videos updated.
 - End-of-game timeline now lists **all** actions (collect, explore, sail, trade, influence, play card, pass), not just build/research/restore; cards drawn by effects may exceed 7 in hand (the end-of-round discard brings it back to 5); the solo match-setup screen shows all 6 scenarios without a scrollbar.
 - Manuals, physical manual, solo manual and Civilopedia (PDF + DOCX, PT/EN/ES) plus the in-game tutorial regenerated with the updated values; many PT/EN/ES translations.
