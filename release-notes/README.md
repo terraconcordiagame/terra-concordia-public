@@ -26,6 +26,7 @@ First post-launch update — a big one.
   - **Aurífera (yellow)** — +1 gold on every market trade and 1 extra Trade action per round (4 instead of 3).
   - Detailed in the Tutorial (Civilizations tab) and the Civilopedia.
 - **13 procedural music tracks** (Settings → Sounds) — 7 beatless orchestral ambiences (Serene, Epic, Mystic, Pastoral, Oceanic, Twilight, Ceremonial) + 6 with distinct rhythms (March, Tribal, Pulse, Festival, Tavern, Gallop). New-player default: March.
+- **Game-start fanfare** — plays when the map appears on round 1 (every mode), alone before any other effect.
 - **12 background color palettes** for the whole game (board, panels, top bar, modals, menus): Classic, Nocturne, Bronze, Forest, Wine, Slate, Ember, Midnight, Jade, Rose, Obsidian, Plum.
 - **Animated end-of-game scoreboard** — category-by-category count-up (~700 ms each); the winner and fanfare appear only at the very end (suspense to the last number); no blank rows.
 - **Redesigned in-hex icons** at a uniform size (house / hard-hat worker / boat), with the VP badge, owner marker, influence disc and wonder repositioned so they never overlap; sidebar workers shown as emojis (green = free, dimmed = placed/exhausted).
