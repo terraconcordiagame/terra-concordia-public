@@ -12,6 +12,24 @@ Future release notes will appear here.
 
 ---
 
+## [1.2.0] — 2026-07-31 — Launch Version
+
+📄 **Official notes (PDF):** [English](v1.2.0/ReleaseNotes-EN.pdf) · [Português](v1.2.0/ReleaseNotes-PT.pdf) · [Español](v1.2.0/ReleaseNotes-ES.pdf)
+
+**Terra Concordia: Civilizations in Harmony** launches on **July 31, 2026**. This is the launch version (1.2.0).
+
+### What's new in 1.2.0
+- **New Reference Guides** — complete and faithful to the manual, available at any time during play.
+- **Balance improvements** — adjustments to cards, costs and scoring for fairer, more strategic matches.
+- **Smarter AI opponents** — rivals that trade, raise wonders and plan each turn better.
+
+### At launch
+- **Modes:** Single-player vs AI (up to 3 opponents, 3 difficulty levels) · Solo Mode (**10 scenarios**) · Multiplayer 2–4 (local/online, including the Diplomacy variant).
+- **Content:** 4 civilizations (each with a unique ability), 142 cards (Construction / Technology / Trade / Influence & more), wonders, public & secret objectives, and a technology tree.
+- **Languages & accessibility:** full UI and PDF manuals in Portuguese, English and Spanish; built-in Reference Guides and Tutorial; colorblind mode; background color presets; adjustable soundtrack.
+
+---
+
 ## [1.1.0] — 2026-06-20
 
 📄 **Official notes (PDF):** [English](v1.1.0/ReleaseNotes-EN.pdf) · [Português](v1.1.0/ReleaseNotes-PT.pdf) · [Español](v1.1.0/ReleaseNotes-ES.pdf)
