@@ -12,6 +12,21 @@ Future release notes will appear here.
 
 ---
 
+## [1.3.0] — 2026-08-09 — Latest Update
+
+📄 **Official notes (PDF):** [English](v1.3.0/ReleaseNotes-EN.pdf) · [Português](v1.3.0/ReleaseNotes-PT.pdf) · [Español](v1.3.0/ReleaseNotes-ES.pdf)
+
+### What's new in 1.3.0
+- **4 new languages** — French, German, Simplified Chinese and Russian (now 7 UI languages total).
+- **New 3D map** with fresh visual effects (2D is still available).
+- **New soundtracks.**
+- **AI overhaul** — rebalanced with **five difficulty levels**, plus AI enhancements and interface improvements.
+- **New keyboard shortcuts** and more options in Preferences.
+- **Complete, updated game manual.**
+- Performance improvements, polish and various fixes.
+
+---
+
 ## [1.2.0] — 2026-07-31 — Launch Version
 
 📄 **Official notes (PDF):** [English](v1.2.0/ReleaseNotes-EN.pdf) · [Português](v1.2.0/ReleaseNotes-PT.pdf) · [Español](v1.2.0/ReleaseNotes-ES.pdf)
